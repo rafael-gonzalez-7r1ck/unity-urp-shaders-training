@@ -1,5 +1,6 @@
 # Exclude tutorial files
 /[Aa]ssets/**/Examples
+/[Aa]ssets/**/Examples.meta
 
 # This .gitignore file should be placed at the root of your Unity project directory
 #
