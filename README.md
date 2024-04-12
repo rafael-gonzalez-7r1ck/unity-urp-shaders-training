@@ -16,9 +16,10 @@ All shaders are compatible with Universal Render Pipeline
 - Shader 03: shader with properties
 - Shader 04: color variation through UV position
 - Shader 05: using HLSL and saturate method
-
-### Functions
-
 - Shader 06: step and smoothstep method
-- Shader 07: lenght method
+
+### Shapes
+
+- Shader 07: making a circle with lenght method
+- Shader 08: making a square with a custom method
 
