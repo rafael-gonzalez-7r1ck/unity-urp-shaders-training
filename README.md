@@ -34,4 +34,4 @@ All shaders are compatible with Universal Render Pipeline
 - Shader 18: combining lines
 ...
 - Shader 22: showing polygons
-
+- Shader 24: combining lines and tiling
