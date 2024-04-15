@@ -1,4 +1,4 @@
-﻿Shader "NiksShaders/Shader16Unlit"
+﻿Shader "NiksShaders/Shader17Unlit"
 {
     Properties
     {
@@ -64,8 +64,8 @@
             
             half4 frag (Varyings i) : SV_Target
             {
-                float2 pos = i.positionOS.xy * 2;
-                half3 color = _Color * onLine(pos.y, lerp(-0.4, 0.4, getDelta(pos.x * PI)), 0.05, 0.002);
+                float2 uv = i.uv;
+                half3 color = _Color * onLine(uv.y, lerp(0.1, 0.9, getDelta(uv.x * PI * 2)), 0.05, 0.002);
                 
                 return half4(color, 1.0);
             }
