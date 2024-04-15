@@ -23,4 +23,7 @@ All shaders are compatible with Universal Render Pipeline
 - Shader 07: making a circle with lenght method
 - Shader 08: making a square with a custom method
 - Shader 09: making a square that follows the pointer
+- Shader 10: a square that moves in time
+- Shader 11: a square that rotates over a pivot
+- Shader 12: a square that scales over a pivot
 
