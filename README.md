@@ -31,3 +31,4 @@ All shaders are compatible with Universal Render Pipeline
 - Shader 15: making a circle soft outline
 - Shader 16: making lines
 - Shader 17: making lines using UV position
+- Shader 18: combining lines
