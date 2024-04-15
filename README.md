@@ -32,3 +32,6 @@ All shaders are compatible with Universal Render Pipeline
 - Shader 16: making lines
 - Shader 17: making lines using UV position
 - Shader 18: combining lines
+...
+- Shader 22: showing polygons
+
