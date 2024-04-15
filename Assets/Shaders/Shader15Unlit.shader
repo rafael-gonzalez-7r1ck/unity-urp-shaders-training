@@ -1,4 +1,4 @@
-﻿Shader "NiksShaders/Shader14Unlit"
+﻿Shader "NiksShaders/Shader15Unlit"
 {
     Properties
     {
@@ -63,7 +63,7 @@
                 float len = length(p);
                 float halfOutline = outline / 2;
 
-                return step(radius - halfOutline, len) - step( radius + halfOutline, len);
+                return smoothstep(radius - halfOutline, radius, len) - smoothstep(radius, radius + halfOutline, len);
             }
             
             half4 frag (Varyings IN) : SV_Target

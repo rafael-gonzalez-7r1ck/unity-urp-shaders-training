@@ -28,3 +28,4 @@ All shaders are compatible with Universal Render Pipeline
 - Shader 12: a square that scales over a pivot
 - Shader 13: tiling the shapes
 - Shader 14: making a circle outline
+- Shader 15: making a circle soft outline
