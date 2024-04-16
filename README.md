@@ -40,3 +40,4 @@ All shaders are compatible with Universal Render Pipeline
 
 - Shader 27: generate simple noise
 - Shader 29: basic fire noise
+- Shader 34: adding transparency
