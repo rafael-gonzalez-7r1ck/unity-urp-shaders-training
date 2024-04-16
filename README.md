@@ -35,3 +35,7 @@ All shaders are compatible with Universal Render Pipeline
 ...
 - Shader 22: showing polygons
 - Shader 24: combining lines and tiling
+
+### Noise
+
+- Shader 27: generate simple noise
