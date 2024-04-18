@@ -59,8 +59,8 @@
                 float n = snoise(pos);
                 float ring = frac(_Frequency * pos.z + _NoiseScale * n);
                 ring += _Contrast * (1 - ring);
-                float delta = pow(ring, _RingScale) + n;
-                half3 color = lerp(_DarkColor, _PaleColor, delta);
+                float delta = pow(abs(ring), _RingScale) + n;
+                half3 color = lerp(_DarkColor, _PaleColor, delta).rgb;
 
                 return half4( color, 1.0 );
             }
